@@ -660,17 +660,17 @@ public class SocksHttpMainActivity extends BaseActivity
 				startActivity(Intent.createChooser(intent, getText(R.string.open_with)));
 				break;
 
-			case R.id.activity_mainInputShowPassImageButton:
-				isMostrarSenha = !isMostrarSenha;
-				if (isMostrarSenha) {
-					inputPwPass.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
-					inputPwShowPass.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_visibility_black_24dp));
-				}
-				else {
-					inputPwPass.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-					inputPwShowPass.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_visibility_off_black_24dp));
-				}
-				break;
+//			case R.id.activity_mainInputShowPassImageButton:
+//				isMostrarSenha = !isMostrarSenha;
+//				if (isMostrarSenha) {
+//					inputPwPass.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
+//					inputPwShowPass.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_visibility_black_24dp));
+//				}
+//				else {
+//					inputPwPass.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+//					inputPwShowPass.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_visibility_off_black_24dp));
+//				}
+//				break;
 		}
 	}
 

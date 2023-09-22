@@ -16,19 +16,19 @@
 	<string name="log_conection_lost">Conexão perdida</string>
 	
 	
-	<string name="start">Iniciar</string>
-	<string name="stop">Parar</string>
-	<string name="reconnect">Reconectar</string>
+	<string name="start">START</string>
+	<string name="stop">STOP</string>
+	<string name="reconnect">RECONNECT</string>
 	
-	<string name="stopping_service_ssh">Parando Serviço SSH</string>
-	<string name="starting_service_ssh">Iniciando Serviço SSH</string>
+	<string name="stopping_service_ssh">STOPPING SSH SERVICE</string>
+	<string name="starting_service_ssh">START SSH SERVICE</string>
 	
 	<string name="title_auth">Autenticação</string>
 	<string name="auth_message">Complete com os dados da conta SSH</string>
 	<string name="auth_username">Nome de usuário</string>
-	<string name="password">Senha</string>
-	<string name="show_password">Mostrar senha</string>
-	<string name="save_password">Salvar senha</string>
+	<string name="password">Password</string>
+	<string name="show_password">Show Password</string>
+	<string name="save_password">Save Password</string>
 	
 	
 	<string name="channel_name_background">Connection statistics</string>
@@ -38,18 +38,18 @@
 	<string name="channel_name_userreq">User interaction required</string>
     <string name="channel_description_userreq">SocksHttp connection requires a user input, e.g. two factor authentification</string>
 	
-	<string name="state_starting">Iniciando</string>
-	<string name="state_connecting">Conectando</string>
+	<string name="state_starting">Starting</string>
+	<string name="state_connecting">Connecting</string>
     <string name="state_wait">Aguardando pôr resposta do servidor</string>
     <string name="state_auth">Autenticando</string>
 	<string name="state_auth_success">Autenticado</string>
     <string name="state_get_config">Getting client configuration</string>
     <string name="state_assign_ip">Assigning IP addresses</string>
     <string name="state_add_routes">Adding routes</string>
-    <string name="state_connected">Conectado</string>
-    <string name="state_disconnected">Desconectado</string>
-    <string name="state_reconnecting">Reconectando</string>
-    <string name="state_stopping">Parando</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_stopping">Stopping</string>
     <string name="state_noprocess">Not running</string>
     <string name="state_resolve">Resolving host names</string>
     <string name="state_tcp_connect">Conectando (TCP)</string>
@@ -68,7 +68,7 @@
 	<string name="state_proxy_inject">Injetando</string>
 	
 	<string name="mobile_info">Rodando no %3$s %1$s (%2$s), Android %5$s API %4$d</string>
-	<string name="app_mobile_info">Versão do Aplicativo: %1$s %2$s</string>
+	<string name="app_mobile_info">App Info: %1$s %2$s</string>
 	
 	<string name="alert_update_app">Instale a versão mais recente</string>
 	<string name="error_settings_expired">Arquivo expirado</string>
